@@ -52,6 +52,9 @@ set signcolumn=yes " 总是显示标记列，防止输入时列时显时隐导�
 set backspace=indent,eol,start
 set termguicolors
 colorscheme one " 设置主题色
+au FileType * hi Normal guibg=NONE ctermbg=NONE
+" 隐藏空行的~
+au FileType * hi EndOfBuffer ctermfg=black ctermbg=black
 
 " 这里会导致vim8颜色显示异常，变成颜色代码字符
 if has("termguicolors")

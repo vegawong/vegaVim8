@@ -1,0 +1,13 @@
+{
+  "suggest.noselect": false,
+  "tsserver.enableJavascript": false,
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "prettier.semi": false,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true
+}

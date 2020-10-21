@@ -57,13 +57,8 @@ neovim版本请移步[https://github.com/vegawong/vegaVIM](https://github.com/ve
 2. 安装配置
 
 ```
-$ curl -o- https://raw.githubusercontent.com/vegawong/vegaVim8/master/install.sh | bash
-```
+$ git clone https://github.com/vegawong/vegaVim8 && cd vegaVim8 && ./install.sh
 
-或者
-
-```
-$ wget -qO- https://raw.githubusercontent.com/vegawong/vegaVIM/master/install.sh | bash
 ```
 
 

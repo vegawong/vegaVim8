@@ -43,8 +43,15 @@ Plug 'bmatcuk/coc-stylelintplus', {'do': 'yarn install --frozen-lockfile'}
 
 
 " 文件管理
-Plug 'preservim/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'ryanoasis/vim-devicons' | Plug 'vwxyutarooo/nerdtree-devicons-syntax'
+" Plug 'preservim/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'
+" Plug 'ryanoasis/vim-devicons' | Plug 'vwxyutarooo/nerdtree-devicons-syntax'
+if has('nvim')
+  Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/defx.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
 
 " clap : 快速打开文件&搜索
 Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }

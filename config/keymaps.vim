@@ -75,14 +75,12 @@ vmap <leader><c-f> <Plug>(coc-format-selected)
 noremap <leader><C-f> :CocCommand prettier.formatFile<CR>
 
 
-" " defx 文件管理
-" nnoremap <silent> <leader>fl
-" \ :<C-u>Defx -resume -toggle -buffer-name=tab`tabpagenr()`<CR>
-" nnoremap <silent> <leader>fll
-" \ :<C-u>Defx -resume -buffer-name=tab`tabpagenr()` -search=`expand('%:p')`<CR>
-
-" NERDTree文件管理
+" defx 文件管理
 nnoremap <silent> <leader>fl
-\ :NERDTreeToggle<CR>
+\ :<C-u>Defx -resume -toggle -buffer-name=tab`tabpagenr()`<CR>
+nnoremap <silent> <leader>fll
+\ :<C-u>Defx -resume -buffer-name=tab`tabpagenr()` -search=`expand('%:p')`<CR>
+
+
 
 

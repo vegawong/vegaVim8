@@ -1,5 +1,5 @@
 
-let g:VEGA_VIM_PWD = getcwd()
+let g:VEGA_VIM_PWD =fnamemodify(resolve(expand('<sfile>')), ':h')
 
 " let g:VEGA_VIM_ROOT = $HOME . "/.vim" " VIM配置文件路径
 

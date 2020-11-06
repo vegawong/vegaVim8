@@ -46,9 +46,9 @@ Plug 'bmatcuk/coc-stylelintplus', {'do': 'yarn install --frozen-lockfile'}
 " Plug 'preservim/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'
 " Plug 'ryanoasis/vim-devicons' | Plug 'vwxyutarooo/nerdtree-devicons-syntax'
 if has('nvim')
-  Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
+  Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' } | Plug 'kristijanhusak/defx-icons' | Plug 'kristijanhusak/defx-git'
 else
-  Plug 'Shougo/defx.nvim'
+  Plug 'Shougo/defx.nvim' | Plug 'kristijanhusak/defx-icons' | Plug 'kristijanhusak/defx-git'
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
 endif

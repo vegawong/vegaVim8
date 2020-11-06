@@ -7,7 +7,7 @@ rm $HOME/.vim_* $HOME/.vimrc_* # 开发模式调试，移除多余的备份文�
 mv $HOME/.vim $HOME/.vim_bak_$bak_timestamp
 mv $HOME/.vimrc $HOME/.vimrc_bak_$bak_timestamp
 ln -s $PWD $HOME/.vim
-ln -s $PWD/vimrc.vim $HOME/.vimrc
+ln -s $PWD/vimrc $HOME/.vimrc
 
 # 下载plug插件管理器
 # https://github.com/junegunn/vim-plug#vim

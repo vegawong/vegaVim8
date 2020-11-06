@@ -128,3 +128,9 @@ $ git clone https://github.com/vegawong/vegaVim8 && cd vegaVim8 && ./install.sh
 "     set termguicolors
 " endif
 ```
+
+## BUG RECORD
+
+- NERDTree error: invalid lnum...#ui_glue#invokeKeyMap
+
+  [https://github.com/preservim/nerdtree/issues/1184](https://github.com/preservim/nerdtree/issues/1184)

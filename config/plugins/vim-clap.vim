@@ -1,0 +1,1 @@
+let g:clap_search_box_border_style = ''

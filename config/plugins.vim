@@ -1,4 +1,5 @@
-let s:VEGA_VIM_PLUG_FOLDER = g:VEGA_VIM_ROOT . "/plug"
+
+let s:VEGA_VIM_PLUG_FOLDER = g:VEGA_VIM_PWD . "/plug"
 
 call plug#begin(s:VEGA_VIM_PLUG_FOLDER)
 

@@ -9,7 +9,7 @@ function! s:setcolum() abort
   " else
   "   return 'mark:indent:icon:filename:type'
   " endif
-  return 'mark:indent:git:icons:filename:type'
+  return 'mark:indent:git:icons:filename'
 endfunction
 
 " 选项设置

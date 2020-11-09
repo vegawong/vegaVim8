@@ -1,5 +1,4 @@
-set termguicolors
-colorscheme one " 设置主题色
+colorscheme gruvbox " 设置主题色
 au FileType * hi Normal guibg=NONE ctermbg=NONE
 " 隐藏空行的~
 au FileType * hi EndOfBuffer ctermfg=black ctermbg=black

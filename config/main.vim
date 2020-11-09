@@ -47,3 +47,5 @@ execute 'source '.fnameescape(s:VEGA_CONFIG_COLOR_FILE)
 " 快捷键设置
 " ================================================================
 execute 'source '.fnameescape(s:VEGA_CONFIG_KEYMAPS_FILE)
+
+let g:gruvbox_hls_cursor=1

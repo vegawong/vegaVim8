@@ -9,6 +9,8 @@ Plug 'joshdick/onedark.vim' " onedark主题
 Plug 'gosukiwi/vim-atom-dark'
 Plug 'morhetz/gruvbox'
 Plug 'rakr/vim-one'
+Plug 'dracula/vim'
+Plug 'arcticicestudio/nord-vim'
 
 " 界面
 Plug 'vim-airline/vim-airline' " 美化状态栏

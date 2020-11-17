@@ -70,8 +70,8 @@ function! s:defx_init()
   nnoremap <silent><buffer><expr> <space>
         \ defx#do_action('toggle_select') . 'j'
   " TODO: we need an action to clear all selections
-  nnoremap <silent><buffer><expr> <esc>
-        \ defx#do_action('clear_select_all')
+  " nnoremap <silent><buffer><expr> <esc>
+  "       \ defx#do_action('clear_select_all')
   
 
   " Define mappings

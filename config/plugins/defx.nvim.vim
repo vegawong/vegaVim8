@@ -9,7 +9,7 @@ function! s:setcolum() abort
   " else
   "   return 'mark:indent:icon:filename:type'
   " endif
-  return 'mark:indent:git:icons:indent:indent:filename'
+  return 'mark:indent:git:space:icons:space:filename'
   "return 'mark:indent:icon:filename:type:size:time'
 endfunction
 

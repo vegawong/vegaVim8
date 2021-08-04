@@ -9,7 +9,8 @@ function! s:setcolum() abort
   " else
   "   return 'mark:indent:icon:filename:type'
   " endif
-  return 'mark:indent:git:icons:filename'
+  return 'mark:indent:git:icons:indent:indent:filename'
+  "return 'mark:indent:icon:filename:type:size:time'
 endfunction
 
 " 选项设置
@@ -38,9 +39,9 @@ call defx#custom#column('icon', {
       \ })
 
 " 列文件名设置
-call defx#custom#column('filename', {
-      \ 'max_width': -90,
-      \ })
+" call defx#custom#column('filename', {
+"       \ 'max_width': -90,
+"       \ })
 
 augroup vfinit
   au!

@@ -22,6 +22,8 @@ noremap dd "_dd<CR>
 noremap ci "_ci
 
 
+nmap <leader>qf <Plug>(coc-quickfix-current)
+nmap <leader>ac <Plug>(coc-codeaction)
 " 跳转到上一个警告（依赖插件coc.nvim)
 nmap <silent> [c <Plug>(coc-diagnostic-prev)
 " 跳转到下一个警告（依赖插件coc.nvim)

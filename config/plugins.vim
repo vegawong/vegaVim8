@@ -56,7 +56,8 @@ else
 endif
 
 " clap : 快速打开文件&搜索
-Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
+" Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!' }
+Plug 'liuchengxu/vim-clap', { 'do': { -> clap#installer#force_download() } }
 Plug 'vn-ki/coc-clap'
 
 " 其他
